@@ -57,3 +57,55 @@ color: #404040;
   opacity: 0.3;
 
 }
+
+
+
+
+.img-section {
+  width: 68%;
+  margin: 0 auto;
+  height: 270px;
+  background-image:url(../img/zgva.png);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.img-section-cover {
+  width: 98%;
+  height: 96%;
+margin: 0 auto;
+background-color: rgba(112, 112, 112, 0.3);
+
+
+}
+
+.img-section-text {
+text-align: center;
+color: #fff;
+
+}
+
+.img-section-text h5 {
+  font-size: 20px;
+  font-family: Acumin Pro-reg;
+ 
+  padding-top: 73px;
+
+}
+
+
+.img-section-text h2 {
+  font-size: 46px;
+  font-family: Acumin Pro-bold;
+  font-weight: bold;
+
+}
+
+
+.img-section-text h6 {
+  font-family: Acumin Pro-reg;
+ font-size: 10px;
+ padding-top: 10px;
+
+}
