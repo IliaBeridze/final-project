@@ -1,0 +1,105 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 103px;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+.header-left p {
+  font-size: 22px;
+  font-family: Acumin Pro-reg;
+  color: #404040;
+  
+}
+.header-left span {
+  font-family: Acumin Pro-bold;
+}
+
+.header-left a {
+  font-size: 16px;
+  font-family: Acumin Pro-reg;
+  color: #707070;
+}
+
+.header-left img {
+  padding-bottom: 3px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.header-right p {
+  font-size: 16px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+}
+
+.header-right a {
+  font-size: 16px;
+  font-family: Acumin Pro-reg;
+  color: #707070;
+  opacity: 0.3;
+}
+.header-right-bold {
+  font-size: 22px;
+  font-family: Acumin Pro-reg;
+  color: #404040;
+
+}
+
+.heo-section {
+  display: flex;
+  
+}
+.hero-aside {
+
+}
+
+.hero-aside-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+
+}
+
+.hero-section-content {
+  width: 454px;
+  height: 135px;
+  border-bottom: 1px solid #707070;
+}
+.hero-section-content p {
+  font-size: 13px;
+  font-family: Acumin Pro-reg;
+  color: #707070;
+  padding-top: 33px;
+}
+
+.hero-section-content h1 {
+  font-size: 40px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+  padding-top: 10px;
+}
+.hero-section-content h2 {
+  font-size: 15px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+  padding-top: 12px;
+}
