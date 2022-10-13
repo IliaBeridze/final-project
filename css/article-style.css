@@ -103,3 +103,111 @@
   font-size: 10px;
   padding-top: 10px;
 }
+
+
+
+
+footer {
+   
+  width: 68%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+ height: 159px;
+ padding-top: 47px;
+ padding-bottom: 27px;
+
+}
+.footer-left h1 {
+  font-size: 16px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+}
+.footer-left h2 {
+  font-size: 15px;
+  font-family: Acumin Pro-reg;
+  color: #707070;
+}
+
+.footer-logo {
+  display: flex;
+  
+  gap: 26px;
+}
+.footer-logo p {
+  font-size: 22px;
+  font-family: Acumin Pro-reg;
+  color: #404040;
+  
+}
+.footer-logo span {
+  font-family: Acumin Pro-bold;
+}
+.footer-logo:last-child p{
+  font-size: 18px;
+}
+.footer-logo img {
+  padding-bottom: 3px;
+}
+.footer-text {
+  display: flex;
+  align-items: flex-start;
+ gap: 5px;
+  flex-direction: column;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer-nav a {
+  font-size: 15px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+  display: flex;
+  padding-top: 8px;
+}
+
+
+
+.footer-more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 20%;
+  height: 159px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-icones {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+}
+
+.footer-more-info a {
+  font-size: 15px;
+  font-family: Acumin Pro-bold;
+  color: #404040;
+}

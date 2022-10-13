@@ -1,6 +1,7 @@
 .container {
   max-width: 1920px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .header {
@@ -74,12 +75,12 @@
 
 .hero-section-overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 99%;
+  height: 95%;
   margin: 0 auto;
   background-color: rgba(112, 112, 112, 0.3);
   
-
+overflow: hidden;
 }
 
 .hero-section-waves{
@@ -87,7 +88,7 @@
   bottom: 0px;
   animation: move-waves 2s ease-out;
 animation-iteration-count: infinite;
-width: fit-content;
+width: 100%;
 }
 @keyframes move-waves {
   1% {
@@ -187,8 +188,317 @@ transform: translate(-50px);
   padding: 8px 19px;
   font-size: 12px;
   font-family: Acumin Pro-bold;
-  border-radius: 12px;
-  
+  border-radius: 12px;}
 
 
+
+  .info-section {
+    display: flex;
+    margin: 0 auto;
+    width: 68%;
+    margin-top: 100px;
+    gap: 66px;
+  }
+  .info-section-right {
+    
+  }
+
+  .info-section-left {
+    box-shadow: 5px 5px rgba(64, 64, 64, 0.11);
+  }
+
+  .left-section-heding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .left-section-heding-publications {
+    display: flex;
+    align-items: center;
+    
+  }
+  .left-section-heding-publications img {
+    padding: 5px;
+  }
+  .left-section-heding-publications h1 {
+    font-size: 25px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
+
+  .left-section-heding-list {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  .left-section-heding-list h2 {
+    font-size: 12px;
+    font-family: Acumin Pro-reg;
+    color: #707070;
+    
+  }
+
+
+  .trevel-reviews {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+    width: 95%;
+  }
+
+.trevel-reviews-text {
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
+
+  .trevel-reviews-text h1 {
+    font-size: 13px;
+    font-family: Acumin Pro-reg;
+    color: #707070;
+
+  }
+  .trevel-reviews-text h2 {
+    font-size: 20px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
+  .trevel-reviews-text h3 {
+    font-size: 15px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
+
+.info-section-right {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+
+  .info-section-right-text {
+    background-image: url(../img/kanion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px rgba(64, 64, 64, 0.11);
+    justify-content: center;
+ 
+   
+  }
+  
+  .info-section-right-text h1 {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #F0F0F0;
+    
+  }
+  .info-section-right-text h2 {
+    font-size: 32px;
+    font-family: Acumin Pro-bold;
+    color: #F0F0F0;
+  }
+  .info-section-right-text h3 {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #F0F0F0;
+  }
+
+
+  .info-section-right-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    font-size: 16px;
+    font-family: Acumin Pro-reg;
+    color: #FFF;
+    background-color: hsla(0, 0%, 0%, 0.207);
+    border-radius: 22px;
+    padding: 9px;
+    border: none;
+  }
+
+  .info-section-right-text-position {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .info-section-right-adres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 5px 5px rgba(64, 64, 64, 0.11);
+    
+  }
+  .info-section-right-adres-position {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+  }
+
+
+  .info-section-right-adres-input {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #F0F0F0;
+    border: 1px solid #FCFCFC;
+  }
+  .info-section-right-adres-input:hover {
+border: 2px solid #DFFBFF;
+  }
+
+  .info-section-right-adres h1 {
+    font-size: 26px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
+
+
+  .info-section-right-adres p {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #F0F0F0;
+  }
+
+
+  .info-section-right-adres-input {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #F0F0F0;
+    border: 1px solid #FCFCFC;
+  }
+  .info-section-right-adres-input:hover {
+border: 2px solid #DFFBFF;
+  }
+
+
+  .info-section-right-adres-btn {
+    background-color: #6294A2;
+    color: #F0F0F0;
+    font-size: 17px;
+    font-family: Acumin Pro-reg;
+    padding: 15px 53px;
+    border: none;
+    border-radius: 22px;
+  }
+
+  footer {
+   
+    width: 68%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .footer-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+   height: 159px;
+   padding-top: 47px;
+   padding-bottom: 27px;
+
+  }
+  .footer-left h1 {
+    font-size: 16px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
+  .footer-left h2 {
+    font-size: 15px;
+    font-family: Acumin Pro-reg;
+    color: #707070;
+  }
+
+  .footer-logo {
+    display: flex;
+    
+    gap: 26px;
+  }
+  .footer-logo p {
+    font-size: 22px;
+    font-family: Acumin Pro-reg;
+    color: #404040;
+    
+  }
+  .footer-logo span {
+    font-family: Acumin Pro-bold;
+  }
+  .footer-logo:last-child p{
+    font-size: 18px;
+  }
+  .footer-logo img {
+    padding-bottom: 3px;
+  }
+  .footer-text {
+    display: flex;
+    align-items: flex-start;
+   gap: 5px;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+
+
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .footer-nav a {
+    font-size: 15px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+    display: flex;
+    padding-top: 8px;
+  }
+ 
+
+
+  .footer-more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 20%;
+    height: 159px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-icones {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+  }
+
+  .footer-more-info a {
+    font-size: 15px;
+    font-family: Acumin Pro-bold;
+    color: #404040;
+  }
